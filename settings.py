@@ -1,2 +1,2 @@
 
-password = '4pG-xkL-YKq-Hs4'
+password = '<password>'

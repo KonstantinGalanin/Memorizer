@@ -6,9 +6,7 @@ import buttons
 import time_utils
 
 
-# bot = telebot.TeleBot('6044842339:AAF9k33I5WndApAAK3IECOv5W9RaWTg6B3o') 
-bot = telebot.TeleBot('6012219357:AAFNgGBDuCkPe7kLdd8VH9pMUUH-xr2N9jY') #тестовый
-
+bot = telebot.TeleBot('<KEY>') 
 
 INT_1 = 15 * 60
 INT_2 = 2 * 60 * 60
