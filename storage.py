@@ -4,7 +4,7 @@ from settings import password
 
 class DataBase:
     def __init__(self):
-        self._cluster = MongoClient('mongodb+srv://konstantingalanin:4pG-xkL-YKq-Hs4@cluster0.3ng34f7.mongodb.net/memorizer?retryWrites=true&w=majority')
+        self._cluster = MongoClient('<MONGO_KEY>')
         self._db = self._cluster['memorizer']
         self._users_collection = self._db['themes']
 
